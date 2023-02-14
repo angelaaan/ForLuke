@@ -1,27 +1,41 @@
 import './LandingPage.scss';
 
+const topsecretmessage = "dear luke\ni love you so much\nforever and always\nhappy valentines day :)";
+const title = "happy\nvalentines >3"
+
 function LandingPage() {
 
     return (
 
-        <div class="body">
-            <h1>bruh</h1>
-            <div class="container">
-            <div class="envelope"></div>
-            <div class="card">
+        <div className="body">
 
-                <h1 class="message">dear luke
-                    <br>happy valentines day</br>bro
-                </h1>
-                <div class="heart"></div>
+            <div className="contentContainer">
+
+                <div className="title">
+                    <h1>{title}</h1>
+                </div>
+
+                <div className="container">
+
+                    <div className="envelope"></div>
+                    <div className="card">
+
+                        <h1 className="message" id="breaklines">
+                            {topsecretmessage}
+                        </h1>
+
+                        <div className="heart"></div>
+
+                    </div>
+
+                    <div className="cover"></div>
+                    <div className="lid"></div>
+                    <div className="shadow"></div>
+
+                </div>
 
             </div>
 
-            <div class="cover"></div>
-            <div class="lid"></div>
-            <div class="shadow"></div>
-
-        </div>
         </div>
     )
 }
