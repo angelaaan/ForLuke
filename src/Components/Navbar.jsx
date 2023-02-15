@@ -10,7 +10,7 @@ function Navbar() {
 			</a>
 			<li>
 				
-				<Link to ='/'> Message</Link>
+				<Link to ='/Message'> Message</Link>
 				<Link to ='/'> You+Me</Link>
 				<Link to ='/'> Analytics</Link>
 

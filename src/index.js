@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import LandingPage from './Pages/LandingPage';
+import Message from './Pages/Message.jsx';
 
 import Navbar from './Components/Navbar.jsx';
 
@@ -13,6 +14,7 @@ root.render(
     <Navbar />
     <Routes>
       <Route path='/' element={<LandingPage />} />
+      <Route path='/Message' element={<Message />} />
     </Routes>
   </BrowserRouter>
 );
